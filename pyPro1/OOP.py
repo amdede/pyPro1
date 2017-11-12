@@ -5,18 +5,16 @@ Created on 10 Nov 2017
 '''
 
 class MyClass(object):
-    '''
-    classdocs
-    '''
-
 
     def say_hello(self):
-        '''
-        Constructor
-        '''
     
-    print('Hello OOP')
-    
+        print('Hello OOP')
+
+
+##########################################
+if __name__ == '__main__':
+    print('Hi Git')
+
 # create an instance of the class
 inst = MyClass()
 
